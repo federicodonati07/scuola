@@ -1,8 +1,12 @@
 import React from 'react'
+import TitlePage from '@/components/TitlePage'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <TitlePage title="LICEO TALETE" subtext="Studenti - Home"></TitlePage>
+
+    </div>
   )
 }
 

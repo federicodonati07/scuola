@@ -1,3 +1,6 @@
+import LeftBar from "@/components/LeftBar";
+import { Link, Sidebar } from "lucide-react";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -5,8 +8,9 @@ export default function RootLayout({
 }>) {
   return (
     <main>
-        sidebar
+        <LeftBar></LeftBar>
         {children}
+        
     </main>
   );
 }
