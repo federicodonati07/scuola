@@ -8,7 +8,7 @@ import { BiSolidUpvote } from "react-icons/bi";
 const LeftBar = () => {
   return (
     <>
-        <section className="fixed top-0 left-0 h-full flex flex-col justify-start items-center bg-zinc-900 text-white text-xl p-4 border-r-2 border-slate-200">
+        <section className="z-40 fixed top-0 left-0 h-full flex flex-col justify-start items-center bg-zinc-900 text-white text-xl p-4 border-r-2 border-slate-200">
             <div className="relative top-0">
                 <Link href="/" className="flex item-center mt-5 hover:tracking-widest hover:text-sky-300 duration-700" >
                     <FaHome size="30px"/>HOME

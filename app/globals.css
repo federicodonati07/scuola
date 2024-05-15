@@ -1,6 +1,6 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
   @layer base {
     :root {
@@ -72,11 +72,5 @@
     }
     body {
       @apply bg-background text-foreground;
-    }
-  }
-
-  @layer utilities{
-    .input-class{
-      @apply text-16 placeholder:text-16 rounded-lg border border-gray-300 text-gray-500 placeholder:text-gray-500
     }
   }
